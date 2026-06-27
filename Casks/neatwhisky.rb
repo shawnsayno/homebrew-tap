@@ -11,7 +11,7 @@
 # initial template/placeholders.
 cask "neatwhisky" do
   version "0.1.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "b2dbffa4d161451ac917f1ce6ed3855329eeada4d526413799ae972d09e21104"
 
   url "https://github.com/shawnsayno/NeatWhisky/releases/download/v#{version}/NeatWhisky-v#{version}.dmg",
       verified: "github.com/shawnsayno/NeatWhisky/"
