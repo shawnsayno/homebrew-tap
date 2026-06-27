@@ -16,10 +16,10 @@ cask "neatwhisky" do
   url "https://github.com/shawnsayno/NeatWhisky/releases/download/v#{version}/NeatWhisky-v#{version}.dmg",
       verified: "github.com/shawnsayno/NeatWhisky/"
   name "NeatWhisky"
-  desc "One-click Steam on macOS, built on Whisky/Wine (fully open-source stack)"
+  desc "One-click Steam, built on Whisky/Wine (fully open-source graphics stack)"
   homepage "https://github.com/shawnsayno/NeatWhisky"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "NeatWhisky.app"
